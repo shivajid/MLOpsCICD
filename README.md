@@ -9,20 +9,20 @@ To perform the CI CD, we will use Vertex AI Piple code in Kubeflow.
 ### Code Organization
 The code structure is defined in the following folders:
 
-- Notebook
+- notebook:
     This contains the notebooks or experiments that you are working with. This has 3 files
       - SourceRepoSetup.ipynb - This file lets you setup a code repo in Google Cloud Source Repository, create a cloud build and execute
       - IrisflowersAutoMLKubeflowPipeline.ipynb - This notebook shows the pipeline that can be executed cell by cell, to understand the pipeline flow.
       - IrisPipelineTemplate.ipynb - This notebook generates two pipeline files that can be used to by the build system
-- pipeline
+- pipeline:
     This folder containers the trainer code pipeline that is for model training
-- artifacts
+- artifacts"
     This is the docker file and other artifacts. This is optional and can be used if you want just have a training image that you would want to build out.
 
 Following files in the root of the folder:
-- cloudbuild.yaml
+- cloudbuild.yaml:
      This is the build file used by cloud build. This has two steps one for build and one for execution of the pipeline.
-- requirements.txt
+- requirements.txt:
      Python packages needed to perform the build
 
 Steps to execute for this
