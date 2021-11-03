@@ -1,17 +1,17 @@
 ## About
 
-This workshop shows how to do a CI/CD with MLOps. This is a continuation of the Day 3 workshop where we will take the IRIS Dataset and use automl classificaton to do a classification on images of flowers and then deploy the model. In this demo we will show how to use a) Cloud Source Repoitory, b) Cloud Build and trigger automated and manual builds. 
+This workshop shows how to do a CI/CD with MLOps. This is a continuation of the Day 3 workshop where we will take the IRIS Dataset and use automl classificaton to do a classification. In this demo we will show how to use Cloud Source Repoitory, Cloud Build and triggers on how to automate builds. They build can be invoked manually or via trigger on a check in of a file.
 
 ### Enviroment
-This package is assumed to be be executed in vertex ai notebooks environment.
-To perform the CI CD, we will use Vertex AI Piple code in Kubeflow.
- 
-### Code Organizatio
+This package is assumed to be be
+
+We will use a Vertex AI Pipeline code for this workshop. 
+
 The code structure is defined in the following folders:
 
 - Notebook
-    This contains the notebooks or experiments that you are working with. This has 3 files
-      - SourceRepoSetup.ipynb - This file lets you setup a code repo in Google Cloud Source Repository, create a cloud build and execute
+    This contains the notebook or experiments that you are working with. This has 3 files
+      - SourceRepoSetup.ipynb - This file lets you setup a code repo in Google Cloud Source Repr
       - IrisflowerAutoMLKubeflowPipeline.ipynb - This is a full notebook for experimentation of code.
       - IrisPipelineTemplate.ipynb - This notebook generates two pipeline files that can be used to by the build system
 - pipeline
