@@ -1,0 +1,52 @@
+## About
+
+This workshop shows how to do a CI/CD with MLOps. This is a continuation of the Day 3 workshop where we will take the IRIS Dataset and use automl classificaton to do a classification. In this demo we will show how to use Cloud Source Repoitory, Cloud Build and triggers on how to automate builds. They build can be invoked manually or via trigger on a check in of a file.
+
+### Enviroment
+This package is assumed to be be
+
+We will use a Vertex AI Pipeline code for this workshop. 
+
+The code structure is defined in the following folders:
+
+- Notebook
+    This contains the notebook or experiments that you are working with. This has 3 files
+      - SourceRepoSetup.ipynb - This file lets you setup a code repo in Google Cloud Source Repr
+      - IrisflowerAutoMLKubeflowPipeline.ipynb - This is a full notebook for experimentation of code.
+      - IrisPipelineTemplate.ipynb - This notebook generates two pipeline files that can be used to by the build system
+- pipeline
+    This folder containers the trainer code pipeline that is for model training
+- artifacts
+    This is the docker file and other artifacts. This is optional and can be used if you want just have a training image that you would want to build out.
+
+Following files in the root of the folder:
+- cloudbuild.yaml
+     This is the build file used by cloudbuild
+- requirements.txt
+     Python packages needed to perform the build
+
+Steps to execute for this
+
+Step 1:
+- Setup the source repository.
+   Follow the instrustions in the "SourceRepoSetup.ipynb" to setup a source repository.
+   Make sure you clone the code the location where you have unzipped this code. The root of the folder should be the home of the repo.
+   You can check on the Cloud Source UI the repo you have created. 
+   Add the files to the source repository
+Setup Cloud Build
+- Go to the Cloud Build and setup a Trigger. Follow the default wizard on the page
+   - Select the Source Repo
+   - Select the default cloudbuild.yaml file and hit save.
+ 
+Step2:
+- Explore the pipeline code
+   You may have done this in the Day3 workshop. We are going to work with the iris dataset to classiify flower images. This is fairly simple where you will use the dataset creation and AutoML to classify the images. At the end you will deploy the model.
+   
+Step3:
+- Prepare the pipeline python code. Execute the notebook "IrisPipelineTemplate.ipynb". Change the needed variables in the code and generate the pipeline files. The pipeline files should be generated in the pipeline folder. There are two files. One is 
+
+
+   
+
+
+

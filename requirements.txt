@@ -1,0 +1,5 @@
+google-cloud-pipeline-components==0.1.7
+google-cloud-aiplatform
+google-cloud-storage
+nbconvert
+jupyterlab

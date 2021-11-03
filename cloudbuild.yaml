@@ -1,0 +1,22 @@
+
+#steps:
+#- name: 'gcr.io/cloud-builders/docker'
+#  args: [ 'build', '-t', 'gcr.io/demogcts/iris:tag1', '-f', './artifacts/', '.' ]
+
+# Install dependencies
+steps:
+- name: python
+  entrypoint: pip
+  args: ["install", "-r", "requirements.txt", "--user"]
+
+# Run build
+- name: python
+  entrypoint: python
+  args: [ "pipeline/pipeline_source.py"] 
+
+
+# Execute build
+- name: python
+  entrypoint: python
+  args: [ "pipeline/pipeline_execute.py"] 
+  
