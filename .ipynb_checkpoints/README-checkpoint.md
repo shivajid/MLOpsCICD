@@ -54,7 +54,7 @@ Step 5:
 Step 6:
  - Add files to the git repository 
     - git add .
-    - git commint -m "some message"
+    - git commit -m "some message"
     - git push 
   
   Now open the cloud build console UI. You should see a build kicked off.
