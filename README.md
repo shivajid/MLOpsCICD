@@ -72,17 +72,17 @@ Complete the [pre_steps](pre_steps.md) if you have not
 - Explore the pipeline code (IrisflowersAutoMLKubeflowPipeline.ipynb)
    We are going to work with the iris dataset to classiify flower images. This is fairly simple where you will use the dataset creation and AutoML to classify the images. At the end you will deploy the model.
    
-**Step4: Running Cloud Build Trigger and Pipeline**:
+* **Step4: Running Cloud Build Trigger and Pipeline**:
 - Prepare the pipeline python code. Execute the notebook "IrisPipelineTemplate.ipynb". Change the needed variables in the code and generate the pipeline files. The pipeline files should be generated in the pipeline folder. There are two files. One is for the pipeline source and the other takes the compiled pipeline output and executes it.
 
-**Step5: Manual Build Execution**:
+* **Step5: Manual Build Execution**:
 - Manually Execute the cloud build to test the pipeline
 * `gcloud builds submit --config cloudbuild.yaml --timeout=1000`
 
-**Step6: Update the Pipeline**:
+* **Step6: Update the Pipeline**:
 - Change the pipeline parameters of the pipeline in the "IrisPipelineTemplate.ipynb" file. Execute the cells to generate the files.
 
-**Step7: Push the code to trugger cloud build and pipeline execution **:
+* **Step7: Push the code to trugger cloud build and pipeline execution **:
  - Add files to the git repository 
     - `git add .`
     - `git commit -m "some message"`
@@ -91,7 +91,7 @@ Complete the [pre_steps](pre_steps.md) if you have not
   Now open the cloud build console UI. You should see a build kicked off.
   You can navigate to Vertex AI Pipelines, you will see a pipeline launched.
 
-**Step8: **
+* **Step8: **
  - Use [CloudFunctions  and Cloud Scheduler](https://cloud.google.com/vertex-ai/docs/pipelines/schedule-cloud-scheduler) to Schedule a run.
 
 
