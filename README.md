@@ -1,4 +1,5 @@
-![](images/kubeflow.png =100x20))
+<img src="images/kubeflow.png" width="200" height="100"/>
+
 ## About
 
 This workshop shows how to do a CI/CD with MLOps. In this workshop where we will take the IRIS Dataset and use automl classificaton to do a classification on images of flowers and then deploy the model. In this demo we will show how to use 
