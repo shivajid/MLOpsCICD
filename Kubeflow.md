@@ -2,6 +2,9 @@
 
 A pipeline is a description of an ML workflow, including all of the components in the workflow and how they combine in the form of a graph. (See the screenshot below showing an example of a pipeline graph.) 
 
+
+<image src="images/pipleline.png" width="400" height="400" />
+
 The pipeline includes the definition of the inputs (parameters) required to run the pipeline and the inputs and outputs of each component.
 
 A pipeline component is a self-contained set of user code, packaged as a Docker image, that performs one step in the pipeline.
