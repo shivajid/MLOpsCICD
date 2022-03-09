@@ -9,13 +9,10 @@ from kfp.v2 import compiler
 from datetime import datetime
 
 # Change the Project ID
-# PROJECT_ID ="[YOUR PROJECT ID]"
-# BUCKET_LOC = "[Your staging bucket locations]"
-# PIPELINE_NAME="[Your Pipeline Name]"
+PROJECT_ID ="[YOUR PROJECT ID]"
+BUCKET_LOC = "[Your staging bucket locations]"
+PIPELINE_NAME="[Your Pipeline Name]"
 
-PROJECT_ID ="demogct"
-BUCKET_LOC = "gs://demogct/vipipelines/"
-PIPELINE_NAME="sd-vertex-pipeline"
 
 TIMESTAMP = datetime.now().strftime("%Y%m%d%H%M%S")
 DISPLAY_NAME = "flowers_" + TIMESTAMP
