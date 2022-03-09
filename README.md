@@ -11,7 +11,7 @@ To perform the CI CD, we will use Vertex AI Piple code in Kubeflow.
 ### Code Organization
 The code structure is defined in the following folders:
 
-- ** notebook**:
+- **notebook**:
     This contains the notebooks or experiments that you are working with. This has 3 files 
     
     * **SourceRepoSetup.ipynb**: 
