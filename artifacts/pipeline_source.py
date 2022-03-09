@@ -13,9 +13,9 @@ from kfp.v2 import compiler
 # BUCKET_LOC = "[Your staging bucket locations]"
 # PIPELINE_NAME="[Your Pipeline Name]"
 
-PROJECT_ID ="demogct"
-BUCKET_LOC = "gs://demogct/vipipelines/"
-PIPELINE_NAME="sd-vertex-pipeline"
+PROJECT_ID ="[YOUR PROJECT]"
+BUCKET_LOC = "[YOUR BUCKET]"
+PIPELINE_NAME="[YOUR PIPELINE_NAME]"
 
 
 aip.init(project=PROJECT_ID, staging_bucket=BUCKET_LOC)
