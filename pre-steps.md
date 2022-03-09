@@ -19,7 +19,12 @@ These steps are for environment setup to get your code up and running.
 * **Step 5: Clone the repository**
   Create a new directory mlops
     **Note: If you plan to use the CI/CD and build. Do not clone the repo, but download as zip from the repository**
+    ![download](images/Download.png)
+    **Else**
      * ` git clone  https://github.com/shivajid/MLOpsCICD.git`
+
+* **Step 6: Upload the zip to your notebook*
+
 
 [Return](README.md)
 
