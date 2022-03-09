@@ -12,13 +12,15 @@ Before we get started it is a good pre-read to understand the concepts of Kublef
 
 I this workshop you will do the following
 * Setup your lab environment
+* Setup Source Control with Cloud Source Repository
+* Setup Build Trigger
 * Run a basic intro to kubeflow lab
 * Run a Kubelfow controls
 * Build a sample Machine Learning Pipeline
 * Trigger the machine learning pipeline using Cloud Functions
-* Setup Source Control with Cloud Source Repository
-* Setup Build Trigger
 * Run CI/CD with MLOps Pipelines
+
+
 
 ## Qwiklabs Pipelines 
 If you are interested in doing the Qwiklabs, it has a good step by step process
