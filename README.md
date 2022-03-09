@@ -20,6 +20,10 @@ I this workshop you will do the following
 * Setup Build Trigger
 * Run CI/CD with MLOps Pipelines
 
+## Qwiklabs Pipelines 
+If you are interested in doing the Qwiklabs, it has a good step by step process
+![Qwiklabs Tutorials](https://www.cloudskillsboost.google/focuses/21234?parent=catalog)
+
 ### Enviroment
 
 Setup the environment with following [pre steps](pre-steps.md)
