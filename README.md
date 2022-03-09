@@ -41,7 +41,7 @@ The code structure is defined in the following folders:
                   This a second KFP Pipelines showing how to work with control flows and parallel execution
     * **[03IrisflowersAutoMLKubeflowPipeline.ipynb](notebooks/03IrisflowersAutoMLKubeflowPipeline.ipynb)**:
                   This notebook shows the pipeline that can be executed cell by cell, to understand the pipeline flow.
-    * **[04SourceRepoSetup.ipynb](notebooks/04SourceRepoSetup.ipynb)**: `IGNORE THIS`
+    * **[04SourceRepoSetup.ipynb](notebooks/04SourceRepoSetup.ipynb)**: `IGNORE THIS FILE `
                   This file lets you setup a code repo in Google Cloud Source Repositorycreate a cloud build and execute
     * **[05IrisPipelineTemplate.ipynb](notebooks/05IrisPipelineTemplate.ipynb)**: 
                   This notebook generates two pipeline files that can be used to by the build system
