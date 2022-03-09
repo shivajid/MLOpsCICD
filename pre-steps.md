@@ -17,7 +17,7 @@ These steps are for environment setup to get your code up and running.
 ![terminal](images/terminal.png)
 
 * **Step 5: Clone the repository**
- *  Create a new directory mlops
+  Create a new directory mlops
      * `mkdir mlops`
- * ` git clone  https://github.com/shivajid/MLOpsCICD.git`
+     * ` git clone  https://github.com/shivajid/MLOpsCICD.git`
 
