@@ -33,7 +33,7 @@ Setup the environment with following [pre steps](pre-steps.md)
 The code structure is defined in the following folders:
 
 - **notebook**:
-    This contains the notebooks or experiments that you are working with. This has 3 files 
+    This contains the notebooks for KFP and CI/CD.
     
     * **[01pipelines_intro_kfp.ipynb](notebooks/01pipelines_intro_kfp.ipynb)** 
                   This is an intro notebook to Pipelines
