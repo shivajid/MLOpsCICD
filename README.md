@@ -84,9 +84,9 @@ Complete the [pre_steps](pre_steps.md) if you have not
 
 **Step 6**:
  - Add files to the git repository 
-    - git add .
-    - git commit -m "some message"
-    - git push 
+    - `git add .`
+    - `git commit -m "some message"`
+    - `git push`
   
   Now open the cloud build console UI. You should see a build kicked off.
   You can navigate to Vertex AI Pipelines, you will see a pipeline launched.
