@@ -1,14 +1,25 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<img src="images/vertexai.png" width="200" height="200"/> &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/kubeflow.png" width="400" height="200"/>&nbsp; &nbsp;
+## Kubeflow
+
+Before we get started it is a good pre-read to understand the concepts of Kubleflow. The [kubeflow.md](Kubeflow.md) file covers the basics and understanding on Kubeflow.
+
 ## About
 
-This workshop shows how to do a CI/CD with MLOps. In this workshop where we will take the IRIS Dataset and use automl classificaton to do a classification on images of flowers and then deploy the model. In this demo we will show how to use 
-* Cloud Source Repoitory, 
-* Cloud Build and trigger automated and manual builds. 
+I this workshop you will do the following
+* Setup your lab environment
+* Run a basic intro to kubeflow lab
+* Run a Kubelfow controls
+* Build a sample Machine Learning Pipeline
+* Trigger the machine learning pipeline using Cloud Functions
+* Setup Source Control with Cloud Source Repository
+* Setup Build Trigger
+* Run CI/CD with MLOps Pipelines
 
 ### Enviroment
-This package is assumed to be be executed in vertex ai notebooks environment.
-To perform the CI CD, we will use Vertex AI Piple code in Kubeflow.
+
+Setup the environment with following [pre steps](pre-steps.md)
+
  
 ### Code Organization
 The code structure is defined in the following folders:
