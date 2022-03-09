@@ -55,5 +55,19 @@ These steps are for environment setup to get your code up and running.
   *  `git push`
   *  Check in the cloud source repo if the code has been checked in
 
+* **Step 11: Setup Cloud Build**
+  *  Follow the following steps to Enable and setup [Cloud Build](https://cloud.google.com/build/docs/build-push-docker-image)
+
+* **Step 12: Execute a Manual Build**
+  *  `gcloud builds submit --config cloudbuild.yaml --timeout=1000`
+
+* **Step 13: Setup Cloud Triggers**
+  *  Follow the following steps to setup [Cloud Triggers](https://cloud.google.com/build/docs/automating-builds/create-manage-triggers).  
+
+
+* **Step 14: Test Build Triggers**
+  * Make a change to the code and push the code to the code repository
+  * Check the Build History page which should have updated with a new build
+  
 [Return](README.md)
 
