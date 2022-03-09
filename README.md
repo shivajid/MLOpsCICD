@@ -80,10 +80,11 @@ Complete the [pre_steps](pre_steps.md) if you have not
 * `gcloud builds submit --config cloudbuild.yaml --timeout=1000`
 
 * **Step6: Update the Pipeline**:
-- Change the pipeline parameters of the pipeline in the "IrisPipelineTemplate.ipynb" file. Execute the cells to generate the files.
 
-* **Step7: Push the code to trugger cloud build and pipeline execution **:
- - Add files to the git repository 
+ - Change the pipeline parameters of the pipeline in the "IrisPipelineTemplate.ipynb" file. Execute the cells to generate the files.
+
+* **Step7: Push the code to trugger cloud build and pipeline execution**:
+  - Add files to the git repository 
     - `git add .`
     - `git commit -m "some message"`
     - `git push`
@@ -91,7 +92,7 @@ Complete the [pre_steps](pre_steps.md) if you have not
   Now open the cloud build console UI. You should see a build kicked off.
   You can navigate to Vertex AI Pipelines, you will see a pipeline launched.
 
-* **Step8: **
+* **Step8: Use Cloud Function and Cloud Scheduler**
  - Use [CloudFunctions  and Cloud Scheduler](https://cloud.google.com/vertex-ai/docs/pipelines/schedule-cloud-scheduler) to Schedule a run.
 
 
