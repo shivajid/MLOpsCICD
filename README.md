@@ -1,6 +1,8 @@
 ## About
 
-This workshop shows how to do a CI/CD with MLOps. This is a continuation of the Day 3 workshop where we will take the IRIS Dataset and use automl classificaton to do a classification on images of flowers and then deploy the model. In this demo we will show how to use a) Cloud Source Repoitory, b) Cloud Build and trigger automated and manual builds. 
+This workshop shows how to do a CI/CD with MLOps. In this workshop where we will take the IRIS Dataset and use automl classificaton to do a classification on images of flowers and then deploy the model. In this demo we will show how to use 
+* Cloud Source Repoitory, 
+* Cloud Build and trigger automated and manual builds. 
 
 ### Enviroment
 This package is assumed to be be executed in vertex ai notebooks environment.
