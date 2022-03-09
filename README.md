@@ -14,11 +14,11 @@ The code structure is defined in the following folders:
 - notebook:
     This contains the notebooks or experiments that you are working with. This has 3 files 
     
-      -- **SourceRepoSetup.ipynb**: 
+     **SourceRepoSetup.ipynb**: 
                   This file lets you setup a code repo in Google Cloud Source Repositorycreate a cloud build and execute
-      -- **IrisflowersAutoMLKubeflowPipeline.ipynb**: 
+     **IrisflowersAutoMLKubeflowPipeline.ipynb**: 
                   This notebook shows the pipeline that can be executed cell by cell, to understand the pipeline flow.
-      -- **IrisPipelineTemplate.ipynb**: 
+     **IrisPipelineTemplate.ipynb**: 
                   This notebook generates two pipeline files that can be used to by the build system
       
 - pipeline:
