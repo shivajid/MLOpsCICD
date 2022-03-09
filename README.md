@@ -91,6 +91,9 @@ Complete the [pre_steps](pre_steps.md) if you have not
   Now open the cloud build console UI. You should see a build kicked off.
   You can navigate to Vertex AI Pipelines, you will see a pipeline launched.
 
+**Step8: **
+ - Use [CloudFunctions  and Cloud Scheduler](https://cloud.google.com/vertex-ai/docs/pipelines/schedule-cloud-scheduler) to Schedule a run.
+
 
    
 
