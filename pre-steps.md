@@ -16,15 +16,44 @@ These steps are for environment setup to get your code up and running.
 * **Step 4: Open a Terminal window in the workbench**
 ![terminal](images/terminal.png)
 
-* **Step 5: Clone the repository**
-  Create a new directory mlops
+* **Step 5: Download the zip of the repository**
+  
     **Note: If you plan to use the CI/CD and build. Do not clone the repo, but download as zip from the repository**
     ![download](images/Download.png)
-    **Else**
-     * ` git clone  https://github.com/shivajid/MLOpsCICD.git`
+    
 
-* **Step 6: Upload the zip to your notebook*
-
+* **Step 6: Upload the zip to your notebook**
+* **Step 7: Setup the Source repository**
+    * Navigate to the terminal window in Step 4 and execute following commands
+      * `pip3 install --upgrade google-cloud-aiplatform`
+    * Set the following environment variables
+      * `PROJECT_ID = "[YOUR PROJECT]"  # @param {type:"string"}`
+      * `INITIALS = "[YOUR INITIALS]"`
+      * `REPO_NAME = "[YOUR REPO NAME]" #@param {type:"string"}`
+      * `WORKING_DIR="[YOUR WORKING DIR]`
+      * `gcloud source repos create $REPO_NAME`
+    * Browse the Google Cloud Source Repo to check the repo is created. Alternatively you can call
+      * `gcloud source repos list`
+      * `mkdir $WORKING_DIR`
+      * `cd $WORKING_DIR`
+      * `gcloud source repos clone $REPO_NAME`
+    *  Set the Git config informatio
+      * `git config --global user.email "you@example.com"`
+      * `git config --global user.name "Your Name"`
+    
+*  **Step 8: Unzip the MLOpsCICD-master.zip file**
+  *   `cd ` 
+  *   `mkdir tmp`
+  *  `unzip MLOpsCICD-master.zip -d ~/tmp`
+*  **Step9: Copy the content of the ~/tmp/MLOpsCICD-master**
+  *  `cp -r ~/tmp/MLOpsCICD-master  $WORKING_DIR/$REPO_NAME/`
+ 
+* **Step 10: Add the code to the Google Cloud Source Repo**
+  *  `cd $WORKING_DIR/$REPO_NAME/`
+  *  `git add .` # Do not forget the dot.
+  *  `git commit -m "Your message" `
+  *  `git push`
+  *  Check in the cloud source repo if the code has been checked in
 
 [Return](README.md)
 
