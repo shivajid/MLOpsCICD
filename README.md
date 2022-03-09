@@ -1,6 +1,8 @@
 
 &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;<img src="images/vertexai.png" width="200" height="200"/> &nbsp; &nbsp; &nbsp; &nbsp; <img src="images/kubeflow.png" width="400" height="200"/>&nbsp; &nbsp;
+
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## Kubeflow
 
 Before we get started it is a good pre-read to understand the concepts of Kubleflow. The [kubeflow.md](Kubeflow.md) file covers the basics and understanding on Kubeflow.
