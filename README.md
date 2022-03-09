@@ -59,29 +59,26 @@ Following files in the root of the folder:
 
 ### Steps to execute for this
 
-**Step 1**:
-- Setup the source repository.
-   Follow the instrustions in the "SourceRepoSetup.ipynb" to setup a source repository.
-   Make sure you clone the code the location where you have unzipped this code. The root of the folder should be the home of the repo.
-   You can check on the Cloud Source UI the repo you have created. 
-   Add the files to the source repository
-- Setup Cloud Build
-- Go to the Cloud Build and setup a Trigger. Follow the default wizard on the page
-   - Select the Source Repo
-   - Select the default cloudbuild.yaml file and hit save.
- 
-**Step2**:
+Complete the [pre_steps](pre_steps.md) if you have not
+* **Step1**
+  Complete `01pipelines_intro_kfp.ipynb`
+
+* **Step2**
+  Complete **[02control_flow_kfp.ipynb](notebooks/02control_flow_kfp.ipynb)** 
+  
+* **Step2**:
 - Explore the pipeline code (IrisflowersAutoMLKubeflowPipeline.ipynb)
-   You may have done this in the Day3 workshop. We are going to work with the iris dataset to classiify flower images. This is fairly simple where you will use the dataset creation and AutoML to classify the images. At the end you will deploy the model.
+   We are going to work with the iris dataset to classiify flower images. This is fairly simple where you will use the dataset creation and AutoML to classify the images. At the end you will deploy the model.
    
-**Step3**:
+**Step3: Running Cloud Build Trigger and Pipeline**:
 - Prepare the pipeline python code. Execute the notebook "IrisPipelineTemplate.ipynb". Change the needed variables in the code and generate the pipeline files. The pipeline files should be generated in the pipeline folder. There are two files. One is for the pipeline source and the other takes the compiled pipeline output and executes it.
 
 **Step 4**:
 - Manually Execute the cloud build
+* `gcloud builds submit --config cloudbuild.yaml --timeout=1000`
 
 **Step 5**:
-- Change the name of the pipeline in the "IrisPipelineTemplate.ipynb" file. Execute the cells to generate the files.
+- Change the pipeline parameters of the pipeline in the "IrisPipelineTemplate.ipynb" file. Execute the cells to generate the files.
 
 **Step 6**:
  - Add files to the git repository 
