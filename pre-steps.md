@@ -41,12 +41,12 @@ These steps are for environment setup to get your code up and running.
       * `git config --global user.email "you@example.com"`
       * `git config --global user.name "Your Name"`
     
-*  **Step 8: Unzip the MLOpsCICD-master.zip file**
-  *   `cd ` 
-  *   `mkdir tmp`
-  *  `unzip MLOpsCICD-master.zip -d ~/tmp`
+*  **Step 8: Unzip the MLOpsCICD-master.zip file*
+    *  `cd ` 
+    *  `mkdir tmp`
+    *  `unzip MLOpsCICD-master.zip -d ~/tmp`
 *  **Step9: Copy the content of the ~/tmp/MLOpsCICD-master**
-  *  `cp -r ~/tmp/MLOpsCICD-master  $WORKING_DIR/$REPO_NAME/`
+    *   `cp -r ~/tmp/MLOpsCICD-master  $WORKING_DIR/$REPO_NAME/`
  
 * **Step 10: Add the code to the Google Cloud Source Repo**
   *  `cd $WORKING_DIR/$REPO_NAME/`
