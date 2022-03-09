@@ -20,7 +20,7 @@ The code structure is defined in the following folders:
       
 - pipeline:
     This folder containers the trainer code pipeline that is for model training
-- artifacts"
+- artifacts:
     This is the docker file and other artifacts. This is optional and can be used if you want just have a training image that you would want to build out.
 
 Following files in the root of the folder:
