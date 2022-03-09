@@ -68,21 +68,21 @@ Complete the [pre_steps](pre_steps.md) if you have not
 * **Step2**
   Complete **[02control_flow_kfp.ipynb](notebooks/02control_flow_kfp.ipynb)** 
   
-* **Step2**:
+* **Step3**:
 - Explore the pipeline code (IrisflowersAutoMLKubeflowPipeline.ipynb)
    We are going to work with the iris dataset to classiify flower images. This is fairly simple where you will use the dataset creation and AutoML to classify the images. At the end you will deploy the model.
    
-**Step3: Running Cloud Build Trigger and Pipeline**:
+**Step4: Running Cloud Build Trigger and Pipeline**:
 - Prepare the pipeline python code. Execute the notebook "IrisPipelineTemplate.ipynb". Change the needed variables in the code and generate the pipeline files. The pipeline files should be generated in the pipeline folder. There are two files. One is for the pipeline source and the other takes the compiled pipeline output and executes it.
 
-**Step 4**:
-- Manually Execute the cloud build
+**Step5: Manual Build Execution**:
+- Manually Execute the cloud build to test the pipeline
 * `gcloud builds submit --config cloudbuild.yaml --timeout=1000`
 
-**Step 5**:
+**Step6: Update the Pipeline**:
 - Change the pipeline parameters of the pipeline in the "IrisPipelineTemplate.ipynb" file. Execute the cells to generate the files.
 
-**Step 6**:
+**Step7: Push the code to trugger cloud build and pipeline execution **:
  - Add files to the git repository 
     - `git add .`
     - `git commit -m "some message"`
