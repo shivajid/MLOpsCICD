@@ -61,7 +61,7 @@ Following files in the root of the folder:
 
 Complete the [pre_steps](pre_steps.md) if you have not
 * **Step1**
-  Complete `01pipelines_intro_kfp.ipynb`
+  Complete **[01pipelines_intro_kfp](01pipelines_intro_kfp.ipynb)**
 
 * **Step2**
   Complete **[02control_flow_kfp.ipynb](notebooks/02control_flow_kfp.ipynb)** 
