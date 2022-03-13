@@ -22,8 +22,8 @@ I this workshop you will do the following
 
 
 
-## Qwiklabs Pipelines 
-If you are interested in doing the Qwiklabs, it has a good step by step process
+## Qwiklabs Pipelines (Alternative to this workshop)
+If you are interested in doing the Qwiklabs for Vertex Pipelines with Kubeflow, it has a good step by step process
 [Qwiklabs Tutorials](https://www.cloudskillsboost.google/focuses/21234?parent=catalog)
 
 ### Enviroment
