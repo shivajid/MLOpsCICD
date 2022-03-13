@@ -1,6 +1,6 @@
 ### Setup
 
-For the lab it is assumed that you are familiar with [Vertex AI](https://cloud.google.com/vertex-ai). Vertex AI is Google Cloud's Machine Learning Development and Model Management platform. Please read the documentation for the full feature. 
+For the lab it is assumed that you are familiar with [Vertex AI](https://cloud.google.com/vertex-ai). Vertex AI is Google Cloud's Machine Learning Development and Model Management platform. Please read the documentation to learn about the full feature set. 
 
 These steps are for environment setup to get your code up and running.
 
