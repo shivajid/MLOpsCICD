@@ -24,7 +24,7 @@ I this workshop you will do the following
 
 ## Qwiklabs Pipelines 
 If you are interested in doing the Qwiklabs, it has a good step by step process
-![Qwiklabs Tutorials](https://www.cloudskillsboost.google/focuses/21234?parent=catalog)
+[Qwiklabs Tutorials](https://www.cloudskillsboost.google/focuses/21234?parent=catalog)
 
 ### Enviroment
 
