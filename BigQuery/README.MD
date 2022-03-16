@@ -24,6 +24,6 @@ BigQuery ML lets you create and execute machine learning models in BigQuery usin
 
 In BigQuery ML, you can use a model with data from multiple BigQuery datasets for training and for prediction.
 
-![Decision Graph](images/ml-model-cheatsheet.pdf)
+![Decision Graph](images/ml-decision.png)
 
 
