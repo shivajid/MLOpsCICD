@@ -106,8 +106,9 @@ Complete the [pre_steps](pre_steps.md) if you have not
 
 ## Acknowledgement
 
-Some of the work in this notebook has been derived from Google Cloud Platform Notebooks. 
-The TFX section of the work is contributed by my colleage. [Juan Acevedo](https://github.com/entrpn/vertex-ai-samples/tree/main/labs/vertex-ai-pipelines/tfx)
+- Some of the work in this notebook has been derived from Google Cloud Platform Notebooks.
+
+- The TFX section of the work is contributed by my colleague - [Juan Acevedo](https://github.com/entrpn/vertex-ai-samples/tree/main/labs/vertex-ai-pipelines/tfx)
 
    
 
