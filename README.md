@@ -3,6 +3,16 @@
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+**Release 0.1**
+***Date 03/16/2022***
+
+## About
+
+This repo covers most steps with MLOps Pipelines. I have additionally added suplementary content
+- BigQuery ML
+- Vertex Training
+
+
 ## Pipelines
 
 Before we get started it is a good to understand the concepts of Kubleflow. The [Kubeflow.md](Kubeflow.md) file covers the basics and understanding on Kubeflow. After finishing the Kubelflow.md, "Vertex Pipeline User Guide.pdf" provides a good introduction to Vertex AI Pipelines and how it is different from the Open Source Kubeflow pipelines.
