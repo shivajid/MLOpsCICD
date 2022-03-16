@@ -1,3 +1,5 @@
+Credits: This notebook section is work of [Juan Acevedo](https://github.com/entrpn/vertex-ai-samples/tree/main/labs/vertex-ai-pipelines/tfx).
+
 # Intro to Vertex Pipelines with Tensorflow Extended
 
 In this lab, you will learn how to create and run ML pipelines with
