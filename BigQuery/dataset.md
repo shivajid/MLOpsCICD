@@ -6,11 +6,10 @@ Content data: information about the behavior of users on the site. This includes
 Transactional data: information about the transactions that occur on the Google Merchandise Store websi
 
 Because it provides Google Analytics 360 data from an ecommerce website, the dataset is useful for exploring the benefits of exporting Google Analytics 360 data into BigQuery via the integration. Once you have access to the dataset you can run queries such as those in this guide for the period of 1-Aug-2016 to 1-Aug-2017. For example to see the total pageviews the website received for 1-Jan-2017 you would query the dataset with:
-`SELECT SUM(totals.pageviews) AS TotalPageviews
 
-FROM 'bigquery-public-data.google_analytics_sample.ga_sessions_20170101'
+    SELECT SUM(totals.pageviews) AS TotalPageviews FROM 'bigquery-public-data.google_analytics_sample.ga_sessions_20170101
 
-`
+
 
 ### Limitations
 All users have viewer access to the dataset. This means that you can query the dataset and generate reports but you cannot complete administrative tasks. Data for some fields have been obfuscated such as fullVisitorId, or removed such as clientId, adWordsClickInfo and geoNetwork. “Not available in demo dataset” will be the returned for STRING values and “null” will be returned for INTEGER values, when querying the fields that contain no data.
