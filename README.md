@@ -8,7 +8,7 @@
 
 ## About
 
-This repo covers most steps with MLOps Pipelines. I have additionally added suplementary content
+This repo covers how to execute MLOps Pipelines with CI/CD. I have additionally added suplementary content
 - BigQuery ML
 - Vertex Training
 
