@@ -91,7 +91,7 @@ Complete the [pre_steps](pre_steps.md) if you have not
   You can navigate to Vertex AI Pipelines, you will see a pipeline launched.
 
 * **Step8: Use Cloud Function and Cloud Scheduler**
- - Use [CloudFunctions  and Cloud Scheduler](https://cloud.google.com/vertex-ai/docs/pipelines/schedule-cloud-scheduler) to Schedule a run.
+   - Use [CloudFunctions  and Cloud Scheduler](https://cloud.google.com/vertex-ai/docs/pipelines/schedule-cloud-scheduler) to Schedule a run.
 
 
    
