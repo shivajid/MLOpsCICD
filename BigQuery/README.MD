@@ -26,4 +26,15 @@ In BigQuery ML, you can use a model with data from multiple BigQuery datasets fo
 
 ![Decision Graph](images/ml-decision.png)
 
+## Sample Code
+
+In this section we have encapsulated sample sql statements to query a bugquery public dataset, create a model, evaluate a model and predict a model.
+
+- selecttotalpageviews.sql
+- [createmodel.sql](createmodel.sql)
+- [training_info.sql](training_info.sql)
+- [ml_evaluate_model.sql](ml_evaluate_model.sql)
+- [predict_model.sql](predict_model.sql)
+
+
 
