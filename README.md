@@ -15,7 +15,7 @@ This repo covers how to execute MLOps Pipelines with CI/CD. I have additionally 
 
 ## Pipelines
 
-Before we get started it is a good to understand the concepts of Kubleflow. The [Kubeflow.md](Kubeflow.md) file covers the basics and understanding on Kubeflow. After finishing the Kubelflow.md, "Vertex Pipeline User Guide.pdf" provides a good introduction to Vertex AI Pipelines and how it is different from the Open Source Kubeflow pipelines.
+Before we get started it is a good to understand the concepts of Kubleflow. The [Kubeflow.md](Kubeflow.md) file covers the basics and understanding on Kubeflow. After finishing the Kubelflow.md, [Vertex Pipeline User Guide](docs/Vertex_Pipeline_User_Guide.pdf) provides a good introduction to Vertex AI Pipelines and how it is different from the Open Source Kubeflow pipelines.
 
 
 ## About
