@@ -104,12 +104,8 @@ Complete the [pre_steps](pre_steps.md) if you have not
     - Use [CloudFunctions  and Cloud Scheduler](https://cloud.google.com/vertex-ai/docs/pipelines/schedule-cloud-scheduler) to schedule a run.
 
 
-## Acknowledgement
-
-- Some of the work in this notebook has been derived from Google Cloud Platform Notebooks.
-
-
-   
-
-
+## TFX
+<html>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YeuvR6m6ACQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</html>
 
