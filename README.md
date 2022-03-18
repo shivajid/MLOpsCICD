@@ -105,7 +105,6 @@ Complete the [pre_steps](pre_steps.md) if you have not
 
 
 ## TFX
-<html>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YeuvR6m6ACQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</html>
+
+[![TFX Tutorial](images/TFX_logo.png]](https://youtu.be/YeuvR6m6ACQ)
 
