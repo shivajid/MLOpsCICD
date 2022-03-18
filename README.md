@@ -106,5 +106,5 @@ Complete the [pre_steps](pre_steps.md) if you have not
 
 ## TFX
 
-[![TFX Tutorial](images/TFX_logo.png]](https://youtu.be/YeuvR6m6ACQ)
+[![TFX Tutorial](images/TFX_logo.png)](https://youtu.be/YeuvR6m6ACQ)
 
