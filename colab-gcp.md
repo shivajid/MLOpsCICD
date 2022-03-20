@@ -8,7 +8,7 @@ Google Colab is a popular and free to use jupyter notebooks hosted by Google Res
 The GCE Runtime is flaky and does not run well. The other option is to host it with GCE instance.
 
 
-### Connecting to a runtime on a Google Compute Engine instance
+### [Connecting to a runtime on a Google Compute Engine instance](https://research.google.com/colaboratory/local-runtimes.html)
 
 If the Jupyter notebook server you'd like to connect to is running on another machine (e.g. Google Compute Engine instance), you can set up SSH local port forwarding to allow Colaboratory to connect to it.
 
