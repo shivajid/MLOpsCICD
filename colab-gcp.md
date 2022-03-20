@@ -15,8 +15,14 @@ If the Jupyter notebook server you'd like to connect to is running on another ma
 Note: Google Cloud Platform provides Deep Learning VM images with Colaboratory local backend support preconfigured. Follow the how-to guides to set up your Google Compute Engine instance with local SSH port forwarding. If you use these images, skip directly to Step 4: Connect to the local runtime (using port 8888).
 
 First, set up your Jupyter notebook server using the following instructions:
-    pip install --upgrade jupyter_http_over_ws>=0.0.7 &&   jupyter serverextension enable --py jupyter_http_over_ws
-    jupyter notebook   --NotebookApp.allow_origin='https://colab.research.google.com'   --port=8888   --NotebookApp.port_retries=0
+
+- Step1:
+
+     pip install --upgrade jupyter_http_over_ws>=0.0.7 &&   jupyter serverextension enable --py jupyter_http_over_ws
+     
+- Step2:
+-
+     jupyter notebook   --NotebookApp.allow_origin='https://colab.research.google.com'   --port=8888   --NotebookApp.port_retries=0
 
 Second, establish an SSH connection from your local machine to the remote instance (e.g. Google Compute Engine instance) and specify the '-L' flag. For example, to forward port 8888 on your local machine to port 8888 on your Google Compute Engine instance, run the following:
 
