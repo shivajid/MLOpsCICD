@@ -69,7 +69,7 @@ Following files in the root of the folder:
 
 ### Steps to execute for this
 
-Complete the [pre_steps](pre_steps.md) if you have not
+Complete the [pre-steps](pre-steps.md) if you have not
 * **Step1**
   Complete **[01pipelines_intro_kfp](01pipelines_intro_kfp.ipynb)**
 
