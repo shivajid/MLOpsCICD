@@ -38,7 +38,7 @@ If you are interested in doing the Qwiklabs for Vertex Pipelines with Kubeflow, 
 
 ### Enviroment
 
-Setup the environment with following [pre steps](pre_steps.md)
+Setup the environment with following [pre steps](pre-steps.md)
 
  
 ### Code Organization
