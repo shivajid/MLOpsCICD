@@ -59,6 +59,13 @@ These steps are for environment setup to get your code up and running.
   *  Follow the following steps to Enable and setup [Cloud Build](https://cloud.google.com/build/docs/build-push-docker-image)
 
 * **Step 11: Execute a Manual Build**
+  *  The following step may error out as it uses my default bucket and region. Please update the [IrisPipelineTemplate notebook](https://github.com/shivajid/MLOpsCICD/blob/master/notebooks/04IrisPipelineTemplate.ipynb), with the right 
+    * PROJECT_ID ="demogct"
+    * BUCKET_LOC = "gs://demogct/vipipelines/"
+    * PIPELINE_NAME="iris-vertex-pipeline"
+    * REGION = "us-central1"
+   This set up defaults to us-central1. If you want a different region please update the aiplatform initialization
+    * aip.init(project=PROJECT_ID, staging_bucket=BUCKET_LOC) --> aip.init(project=PROJECT_ID,location=REGION staging_bucket=BUCKET_LOC)
   *  `gcloud builds submit --config cloudbuild.yaml --timeout=1000`
 
 * **Step 12: Setup Cloud Triggers**
