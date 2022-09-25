@@ -1,0 +1,3 @@
+# CLIP Embedding
+
+This repo shows how to build  CLIP Embedding Dockerfile with NVIDIA Pytorch CUDA file.
